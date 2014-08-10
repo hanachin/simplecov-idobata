@@ -20,12 +20,17 @@ Or install it yourself as:
 
 ``` ruby
 require 'simplecov/idobata'
+
 SimpleCov.formatters = [
   SimpleCov::Formatter::HTMLFormatter,
   SimpleCov::Formatter::IdobataFormatter,
 ]
 # Set environment variable SIMPLECOV_IDOBATA_HOOK_URL or
 SimpleCov::Formatter::IdobataFormatter.hook_url = "Your idobata generic webhook endpoint url"
+
+# You can customize the coverage thresholds, default is here:
+SimpleCov::Formatter::IdobataFormatter.goal = 90
+SimpleCov::Formatter::IdobataFormatter.warning = 80
 ```
 
 ## Contributing
