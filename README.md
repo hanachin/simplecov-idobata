@@ -1,6 +1,8 @@
 # SimpleCov::Formatter::IdobataFormatter
 
 [![Build Status](https://travis-ci.org/hanachin/simplecov-idobata.svg)](https://travis-ci.org/hanachin/simplecov-idobata)
+[![Code Climate](https://codeclimate.com/github/hanachin/simplecov-idobata/badges/gpa.svg)](https://codeclimate.com/github/hanachin/simplecov-idobata)
+[![Test Coverage](https://codeclimate.com/github/hanachin/simplecov-idobata/badges/coverage.svg)](https://codeclimate.com/github/hanachin/simplecov-idobata)
 
 report your test coverage to idobata.io.
 
