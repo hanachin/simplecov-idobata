@@ -70,7 +70,7 @@ describe SimpleCov::Formatter::IdobataFormatter do
     end
 
     after do
-      WebMock.disable_net_connect!
+      WebMock.disable_net_connect!(allow: /codeclimate.com/)
     end
 
     it "should raise error" do
