@@ -7,6 +7,8 @@
 
 report your test coverage to idobata.io.
 
+![simplecov-idobata screenshot](simplecov-idobata.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
