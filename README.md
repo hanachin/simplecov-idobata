@@ -6,7 +6,7 @@ report your test coverage to idobata.io.
 
 Add this line to your application's Gemfile:
 
-    gem 'simplecov-idobata'
+    gem 'simplecov-idobata', require: false
 
 And then execute:
 
