@@ -5,7 +5,7 @@ require 'simplecov/idobata/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "simplecov-idobata"
-  spec.version       = Simplecov::Idobata::VERSION
+  spec.version       = SimpleCov::Formatter::IdobataFormatter::VERSION
   spec.authors       = ["Seiei Higa"]
   spec.email         = ["hanachin@gmail.com"]
   spec.summary       = %q{report your test coverage to idobata.io.}
@@ -17,6 +17,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "simplecov"
+  spec.add_dependency "idobadge"
+  spec.add_dependency "idobata_hook"
   spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "webmock"
   spec.add_development_dependency "rake"
 end
