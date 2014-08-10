@@ -1,5 +1,7 @@
 # SimpleCov::Formatter::IdobataFormatter
 
+[![Build Status](https://travis-ci.org/hanachin/simplecov-idobata.svg)](https://travis-ci.org/hanachin/simplecov-idobata)
+
 report your test coverage to idobata.io.
 
 ## Installation
