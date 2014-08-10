@@ -1,4 +1,4 @@
-# Simplecov::Formatter::IdobataFormatter
+# SimpleCov::Formatter::IdobataFormatter
 
 report your test coverage to idobata.io.
 
