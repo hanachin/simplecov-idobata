@@ -1,9 +1,17 @@
 class SimpleCov::Formatter::IdobataFormatter
+  # Format coverage result to idobata text badge
+  # @api private
   class Badge
+    # @api private
+    # @param result [SimpleCov::Result] the coverage result
     def initialize(result)
       @result = result
     end
 
+    # text badge html of coverage result
+    #
+    #     995 / 1000 LOC (99.5%) covered.
+    # @api private
     def to_s
       Idobadge.send(badge_method, message)
     end
