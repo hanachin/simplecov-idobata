@@ -5,6 +5,7 @@
 [![Test Coverage](https://codeclimate.com/github/hanachin/simplecov-idobata/badges/coverage.svg)](https://codeclimate.com/github/hanachin/simplecov-idobata)
 [![Dependency Status](https://gemnasium.com/hanachin/simplecov-idobata.svg)](https://gemnasium.com/hanachin/simplecov-idobata)
 [![Gem Version](https://badge.fury.io/rb/simplecov-idobata.svg)](http://badge.fury.io/rb/simplecov-idobata)
+[![Inline docs](http://inch-ci.org/github/hanachin/simplecov-idobata.png?branch=master)](http://inch-ci.org/github/hanachin/simplecov-idobata)
 
 report your test coverage to idobata.io.
 
