@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/hanachin/simplecov-idobata/badges/gpa.svg)](https://codeclimate.com/github/hanachin/simplecov-idobata)
 [![Test Coverage](https://codeclimate.com/github/hanachin/simplecov-idobata/badges/coverage.svg)](https://codeclimate.com/github/hanachin/simplecov-idobata)
 [![Dependency Status](https://gemnasium.com/hanachin/simplecov-idobata.svg)](https://gemnasium.com/hanachin/simplecov-idobata)
+[![Gem Version](https://badge.fury.io/rb/simplecov-idobata.svg)](http://badge.fury.io/rb/simplecov-idobata)
 
 report your test coverage to idobata.io.
 
